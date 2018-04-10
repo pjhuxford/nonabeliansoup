@@ -1,9 +1,25 @@
 baseurl = "/"
-languageCode = "en-us"
-languageLang = "en"
-title = "My new Victor-Hugo site"
+title = "Non-Abelian Soup"
+theme = "beautifulhugo"
+pygmentsUseClasses = true
+pygmentsCodeFences = true
+pygmentsCodefencesGuessSyntax = true
 
-# RSS, categories and tags disabled for an easy start
-# See configuration options for more details: 
-# https://gohugo.io/getting-started/configuration/#toml-configuration
-disableKinds = ["RSS", "taxonomy", "taxonomyTerm"]
+[Params]
+  subtitle = "This is a math blog... I guess?"
+  logo = "img/logo.png"
+  favicon = "img/favicon.ico"
+  dateFormat = "January 2, 2006"
+  rss = true
+
+[Author]
+  name = "Peter Huxford"
+  website = "https://nonabeliansoup.com"
+  email = "pjhuxford@gmail.com"
+  github = "pjhuxford"
+  twitter = "pjhuxford"
+
+[[menu.main]]
+    name = "Blog"
+    url = ""
+    weight = 1
